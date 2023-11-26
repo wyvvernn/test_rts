@@ -1,7 +1,6 @@
 extends Marker3D
 
-
-const Line3D = preload("res://line3d.gd")
+const Line3D = preload("res://scripts/line3d.gd")
 
 @export var character_speed := 10.0
 @export var show_path := true

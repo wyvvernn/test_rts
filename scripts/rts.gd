@@ -1,7 +1,7 @@
 extends Node3D
 
 
-const Character = preload("res://character.gd")
+const Character = preload("res://scripts/character.gd")
 
 @onready var _camera := $CameraBase/Camera3D as Camera3D
 @onready var unit1 := $RobotBase as Character
